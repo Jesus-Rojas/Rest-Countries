@@ -50,7 +50,10 @@ export class PorPaisComponent {
     
     this.paisService.buscarPais( termino )
       .subscribe( 
-        paises => this.paisesSugeridos = paises.splice(0,5),
+        paises => {
+          this.paisesSugeridos = paises.splice(0,5)
+          console.log(paises)
+        },
         (err) => this.paisesSugeridos = []
       );
 
