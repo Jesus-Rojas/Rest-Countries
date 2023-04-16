@@ -1,1 +1,0 @@
-{"version":3,"sources":["src/styles.css"],"names":[],"mappings":";AACA;IACI,WAAW;AACf;;AAEA;IACI,iBAAiB;AACrB,C","file":"styles.css","sourcesContent":["\n.small-flag {\n    width: 50px;\n}\n\n.mr-1 {\n    margin-right: 5px;\n}"],"sourceRoot":"webpack:///"}
